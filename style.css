@@ -29,5 +29,17 @@ section {
 .layer.layer2 {
   background: #fff;
   transform: skewX(-45deg) translateX(-100px);
-  z-index: 1;
+  z-index: 3;
+}
+
+.layer.layer3 {
+  background: #ff3161;
+  transform: skewX(-45deg) translateX(-200px);
+  z-index: 5;
+}
+
+.layer.layer4 {
+  background: #222;
+  transform: skewX(-45deg) translateX(-200px);
+  z-index: 5;
 }
